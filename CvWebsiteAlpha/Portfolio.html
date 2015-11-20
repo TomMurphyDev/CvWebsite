@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TmDev.com</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#myPage">TomMurphyDev</a>
+            </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#about">ABOUT ME</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#myModal" data-toggle="modal" data-target="#myModal">CONTACT</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon glyphicon-search" aria-hidden="true"></span>SEARCH</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <div class="jumbotron text-center">
+        <div class="row">
+            <div class="col-sm-2">
+            </div>
+            <div class="col-sm-8 text-center">
+                <h1>Thomas Murphy</h1>
+            </div>
+            <div class="col-sm-2">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+            </div>
+            <div class="col-sm-4 text-center">
+                <p>"I Program Things to Do Things"</p>
+                <p><img src="images/me.jpg" class="img-rounded center-block img-responsive" alt="Me" width="304"
+                    height="236"></p>
+                <p>"4th Year Computing Student Actively Seeking Employment and Projects to work on"</p>
+                 <hr/>
+             </div>
+            <div class="col-sm-4">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2">
+            </div>
+            <div class="col-sm-8">
+                <a class="btn-link" data-toggle="tooltip" title="Github" href="https://github.com/TomMurphyDev" target="_blank"><i class="fa fa-github-square fa-3x fa-border"></i></a>
+                <a class="btn-link" data-toggle="tooltip" title="Instagram" href="https://instagram.com/thatmurphyfella/" target="_blank"><i class="fa fa-instagram fa-3x fa-border"></i></a>
+                <a class="btn-link" data-toggle="tooltip" title="Twitter" href="https://twitter.com/ThatMurphyFella" target="_blank"><i class="fa fa-twitter-square fa-3x fa-border"></i></a>
+                <a class="btn-link" data-toggle="tooltip" title="LinkedIn" href="https://www.linkedin.com/in/thomasmurphydev" target="_blank"><i class="fa fa-linkedin-square fa-3x fa-border"></i></a>
+                <a class="btn-link" data-toggle="tooltip" title="Download CV" href="images/Thomas_Murphy_CV.pdf" download="Thomas_Murphy_CV " target="_blank"><i class="fa fa-download fa-3x fa-border"></i></a>
+                <a class="btn-link" data-toggle="tooltip" title="View CV" href="images/Thomas_Murphy_CV.pdf" target="_blank"><i class="fa fa-eye fa-3x fa-border"></i></a>
+            </div>
+            <div class="col-sm-2">
+            </div>
+        </div>
+    </div>
+    <div id="about" class="container-fluid text-center">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>About Me</h1>
+                <h3>Background</h3>
+            <div class="well well-sm">
+                <blockquote>"Accomplished service industry professional who upon returning to third level education will
+                    complete a B.Sc. in Computing in May 2016 achieving the following."
+                </blockquote>
+            </div>
+            <ul>
+                <li>Strong proficiency in object orientated programming languages such as Java and C#.</li>
+                <li>High competency in un-managed programming environments such as C++.</li>
+                <li>Comprehensive understanding Database Design and Development using SQL/PLSQL.</li>
+                <li>Advanced understanding of Network development using Cisco systems and
+                    developing distributed systems in the cloud on platforms such as Azure and AWS
+                </li>
+            </ul>
+            </div>
+        </div>
+        <div class = "row text-center">
+            <div class = "col-sm-3">
+                <h4><strong> Year 4 Gpa:</strong>TBA</h4>
+            </div>
+            <div class = "col-sm-3">
+                <h4><strong> Year 3 Gpa:</strong>3.0</h4>
+            </div>
+            <div class = "col-sm-3">
+                <h4><strong> Year 2 Gpa:</strong>3.19</h4>
+            </div>
+            <div class = "col-sm-3">
+                <h4><strong> Year 1 Gpa:</strong>3.24</h4>
+            </div>
+        </div>
+    </div>
+    <div id="skills" class="container-fluid text-center bg-grey">
+        <h1>Skills</h1>
+        <h4>What I have to offer</h4>
+        <div class="row">
+            <div class="col-sm-3">
+                <span class="glyphicon glyphicon-console logo-small"></span>
+                <h4>Programming Languages</h4>
+
+                <p>Java, C#, C++. Applied to build android applications
+
+                    (Java) and Web Applications (Play Framework!), C# building .net web
+
+                    applications and windows phone mobile applications.</p>
+                <hr/>
+                <a class="btn-default" data-toggle="collapse" data-target="#demo">
+                    <i class="fa fa-arrow-circle-down fa-4x rotate"></i>
+                </a>
+
+                <div id="demo" class="collapse">
+                <div>
+                    <table class="table table-responsive">
+                        <thead>
+                        <tr class="info">
+                            <th>Subject</th>
+                            <th>Grade</th>
+                            <th>Year</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Software Development 1</td>
+                            <td>A</td>
+                            <td>1</td>
+
+                        </tr>
+                        <tr>
+                            <td>Software Development 2</td>
+                            <td>A</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>Software Development 3</td>
+                            <td>A</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>Software Development 4</td>
+                            <td>A</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>Software Development Year 2 Project</td>
+                            <td>A</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>Algorithims And Data Structures 1</td>
+                            <td>C</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Algorithims And Data Structures 2</td>
+                            <td>C+</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Software Development Year 3 Project</td>
+                            <td>A</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Logic and Problem Solving</td>
+                            <td>B</td>
+                            <td>3</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            </div>
+        <div class="col-sm-3">
+            <span class="glyphicon glyphicon-hdd logo-small"></span>
+            <h4>Databases</h4>
+
+            <p>Programming in SQL/PLSQL, Relational, Object-Relational Database
+
+                design and development. Experience using the Entity framework (code first),
+
+                Hibernate and Ebean ORM.</p>
+            <hr/>
+            <a class="btn-default" data-toggle="collapse" data-target="#demo2">
+                <i class="fa fa-arrow-circle-down fa-4x rotate"></i>
+
+                <div id="demo2" class="collapse">
+                    <table class="table table-responsive">
+                        <thead>
+                        <tr class="info">
+                            <th>Subject</th>
+                            <th>Grade</th>
+                            <th>Year</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Database Fundamentals</td>
+                            <td>B+</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>Object Oriented System Anaylsis</td>
+                            <td>B</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>Business and information Systems</td>
+                            <td>B</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>Database Design and Programming</td>
+                            <td>B-</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>Object Oriented Analysis and Design 2</td>
+                            <td>A</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Advanced Databases</td>
+                            <td>C+</td>
+                            <td>3</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-3">
+            <span class="glyphicon glyphicon-cloud logo-small"></span>
+            <h4>Cloud Development:</h4>
+
+            <p>Developing and deploying applications in Azure such as
+                applications reliant on Azure Media Services, mobile services and those
+                requiring off table storage in BLOB's.</p>
+            <hr/>
+            <a class="btn-default" data-toggle="collapse" data-target="#demo3">
+                <i class="fa fa-arrow-circle-down fa-4x rotate"></i>
+
+                <div id="demo3" class="collapse">
+                    <table class="table table-responsive">
+                        <thead>
+                        <tr class="info">
+                            <th>Subject</th>
+                            <th>Grade</th>
+                            <th>Year</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Information Security</td>
+                            <td>B</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>Web Design and Development</td>
+                            <td>B</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>Web Design and Development 2</td>
+                            <td>B-</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Business and information Systems</td>
+                            <td>B</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>Cloud services and distributed computing</td>
+                            <td>B+</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Object Oriented Analysis and Design 2</td>
+                            <td>A</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Operating Systems</td>
+                            <td>B+</td>
+                            <td>3</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-3">
+            <span class="glyphicon glyphicon-resize-full logo-small"></span>
+            <h4>Networking</h4>
+
+            <p>Implementing networks though the Cisco Cli.
+                Implementing networking concepts such as subnets,
+                Multi-area Ospf,Rip v1 and v2,Dmz's and static/default routes.
+            </p>
+            <hr/>
+            <a class="btn-default" data-toggle="collapse" data-target="#demo4">
+                <i class="fa fa-arrow-circle-down fa-4x rotate"></i>
+
+                <div id="demo4" class="collapse">
+                    <table class="table table-responsive">
+                        <thead>
+                        <tr class="info">
+                            <th>Subject</th>
+                            <th>Grade</th>
+                            <th>Year</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Computer Architecture</td>
+                            <td>B</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>Networking 1</td>
+                            <td>B</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>Networking 2</td>
+                            <td>B+</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>Network Management</td>
+                            <td>B-</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Cloud services and distributed computing</td>
+                            <td>B+</td>
+                            <td>3</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+<div id="portfolio" class="container-fluid text-center">
+    <h1>Portfolio</h1>
+
+    <div class="alert alert-info fade in">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        <strong>New!</strong> Have a Look at My latest Project An Nfl Data Visualisation created in Tableau 9.0
+        <div>
+            <a href="https://public.tableau.com/profile/publish/NFLoffenseAnalysis/NFLOffensiveAnalysisforthe2014season#!/publish-confirm"
+               target="_blank" class="btn btn-info" role="button">View Visualisation</a>
+        </div>
+    </div>
+    <h2>Currently in Development</h2>
+    <hr/>
+    <div class="row text-center">
+        <div class="col-sm-12">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5">
+                <img src="images/azure.jpg" class="img-rounded img-responsive" alt="Azure Logo" width="400"
+                     height="200">
+            </div>
+            <div class="col-sm-5">
+                <img src="images/Windows-Phone-8-Update-3.jpg" class="img-rounded img-responsive" alt="Azure Logo"
+                     width="400" height="200">
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+    </div>
+    <hr/>
+    <div class="row text-center">
+        <div class="col-sm-12">
+            <p>
+                For my final year project I am currently developing an application that utilizes Azure Media Services to
+                Transmit Live video
+                captured Within a Windows Phone 8.1 Rt application.Built using C# and XAML and demonstrating all the
+                skills i have obtained
+                during my course of study.User Account creation and payment processing to access the multi tiered level
+                of service the Project will provide.
+                Ultimately being a fully functional application available from the windows Store.
+            </p>
+            <a href="https://github.com/TomMurphyDev/AzureMediaStreaming" target="_blank" class="btn btn-default" role="button">View On Github<i class="fa fa-github-square"></i></a>
+        </div>
+    </div>
+    <hr/>
+    <h1>Past Projects of Mine!</h1>
+
+    <div class="row text-center">
+        <div class="col-sm-6">
+            <div class="thumbnail">
+                <h2>Titanfall Towers Hotel Management System</h2>
+                <h3><strong>Grade:</strong>A</h3>
+                <hr/>
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="images/TTFHOME.PNG" alt="HomePage">
+
+                            <div class="carousel-caption">
+                                <h3 style="color:black">HomeScreen</h3>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="images/TTfbooking.PNG" alt="BookingScreen">
+
+                            <div class="carousel-caption">
+                                <div class="carousel-caption">
+                                    <h3 style="color:black">Booking Screen</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="images/TTFCC.PNG" alt="CreditCard Screen">
+
+                            <div class="carousel-caption">
+                                <div class="carousel-caption">
+                                    <h3 style="color:black">CreditCard Screen</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="images/ttfRooms.PNG" alt="Rooms">
+
+                            <div class="carousel-caption">
+                                <div class="carousel-caption">
+                                    <h3 style="color:black">Rooms Screen</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <hr/>
+                <div class="text-center">
+                    <p> Here we built a java application with swing UI elements connected via JDBC to an Oracle Database</p>
+
+                    <p>
+                        From a User perspective you could book a room,manage your bookings or add extra upgrades to your
+                        room.
+                        Booking was confirmed by checking for valid credit card numbers via application of the Luhn algorithim.
+                        Password details were hashed and salted using Java Api Encryption classes.
+                    </p>
+                    <p>
+                        While the Hotel Admin/Manager could log in to be greeted to a separate Home Screen Where Rooms
+                        bookings could be managed,
+                        Hotel Room configuration changes, Specials added and print printed text forms or generated graph
+                        breakdowns of user booking data.
+                        THe User manual also being implemented as html pages loaded within the application for easy
+                        navigation in case of needs.
+                    </p>
+                    <a href="https://github.com/TomMurphyDev/TitanFallTowers" target="_blank" class="btn btn-default" role="button">View on Github<i class="fa fa-github-square"></i></a>
+                    </div>
+                </div>
+            <div>
+                <span class="label label-primary">#Java</span>
+                <span class="label label-primary">#Mvc</span>
+                <span class="label label-primary">#JDBC</span>
+                <span class="label label-primary">#Swing</span>
+                <span class="label label-primary">#Encryption</span>
+                <span class="label label-primary">#OOP</span>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="thumbnail">
+                <h2>ArtGallery Responsive Play! framework website</h2>
+                <h3><strong>Grade:</strong>A</h3>
+                <hr/>
+                <div>
+                    <img src="images/ArtGallery%20Home.PNG" alt="HomePage">
+                    <hr/>
+                    <p></p>
+
+                    <p> Here I built a Java Web application using the Play! Framework
+                        Web Architecture which is used by popular websites such as LinkedIn</p>
+
+                    <p>
+                        I implemented an MVC based web application that by nature of using the Play framework was
+                        stateless and RESTful by nature. This Website was a functional tool for the fictional ArtGallery
+                        as it allowed guests to browse there collections and view upcoming events but only allowed
+                        registered users to book events etc
+                    </p>
+
+                    <p>
+                        Features included Form validation,implementation of CSRF filters,Encrypting sensitive user
+                        information that was stored in a PostGres DB managed by the pgAdmin software,user registration,validation and email confirmation and general
+                        CRUD functionality a modern website needs.
+                        Built completely with bootstrap components to ensure functionality on smaller screened devices
+                    </p>
+                    <a href="https://github.com/TomMurphyDev/ArtGalleryWebsite" target="_blank" class="btn btn-default" role="button">View on Github<i class="fa fa-github-square"></i></a>
+                    <a href="artgallerytm.herokuapp.com" target="_blank" class="btn btn-default" role="button">View Live Demo on Heroku!</a>
+                </div>
+                <div>
+                    <span class="label label-primary">#Java</span>
+                    <span class="label label-primary">#Heroku Cloud App</span>
+                    <span class="label label-primary">#Hibernate</span>
+                    <span class="label label-primary">#Play!</span>
+                    <span class="label label-primary">#Encryption</span>
+                    <span class="label label-primary">#Web Applications</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h2 class="modal-title">Contact Form</h2>
+                    <p>Contact Me and I'll get back to you within 24 hours.</p>
+                    <p><span class="glyphicon glyphicon-map-marker"></span> Dublin,Ireland</p>
+                    <p><span class="glyphicon glyphicon-phone" href="tel:+353857876447"></span> +353857876447</p>
+                    <p><span class="glyphicon glyphicon-envelope"></span> tommurphydev@gmail.com</p>
+                </div>
+                <div class="modal-body">
+                    <div class="row text center">
+                        <form role="form" action="" method="post" >
+                            <div class="col-sm-12">
+                                <div class="form-group">
+                                    <label for="InputName">Your Name</label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name" required>
+                                        <span class="input-group-addon"></i></span></div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="InputEmail">Your Email</label>
+                                    <div class="input-group">
+                                        <input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Enter Email" required  >
+                                        <span class="input-group-addon"></span></div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="InputMessage">Message</label>
+                                    <div class="input-group"
+                                            >
+                                        <textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
+                                        <span class="input-group-addon"></span></div>
+                                </div>
+                                <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-info pull-right">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container-fluid text-center">
+        <a href="#myPage" title="To Top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+
+        <p>Return to Top</p>
+        <p>View list of Bootstrap Features </p>
+    </footer>
+</body>
+
+<script>
+    $(".rotate").click(function () {
+        $(this).toggleClass("down");
+    });
+    $(document).ready(function () {
+        // Add smooth scrolling to all links in navbar + footer link
+        $(".navbar a, footer a[href='#myPage']").on('click', function (event) {
+
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+            $("html, body").animate({
+                scrollTop: $(hash).offset().top
+            }, 900, function () {
+
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+            });
+        });
+    });
+    $(document).ready(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+    $(document).ready(function () {
+        $(".navbar-nav li a").click(function (event) {
+            $(".navbar-collapse").collapse('hide');
+        });
+    });
+</script>
+</html>
